@@ -41,14 +41,20 @@
             <div class="infoblock">
                 <p>
                     <label for="pwd">PASSWORD</label>
-                    <input type="password" name="user_pwd" id="pwd" required>
+                    <input type="password" name="user_pwd" id="pwd" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$" 
+                    title="Password must be at least 6 characters long, include at least one number, one letter, and one special character."required>
                 </p>
                 <p>
                     <label for="confirm_pwd">CONFIRM PASSWORD</label>
-                    <input type="password" name="user_confirm_pwd" id="confirm_pwd" required>
+                    <input type="password" name="user_confirm_pwd" id="confirm_pwd" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$" 
+                    title="Password must be at least 6 characters long, include at least one number, one letter, and one special character". required>
                 </p>
             </div>
         </fieldset>
+        <fiedset class="section section2">
+            <button type="submit">Create Account</button>
+
+        </fiedset>
         
     
 

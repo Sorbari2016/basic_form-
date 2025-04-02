@@ -8,8 +8,8 @@
 
 
 body {
-    background-image: url(assets/namroud-gorguis-FZWivbri0Xk-unsplash.jpg);
-    background-size: contain; /* Ensures the whole image is visible */
+  background-image: url(assets/namroud-gorguis-FZWivbri0Xk-unsplash.jpg);
+  background-size: contain; /* Ensures the whole image is visible */
   background-repeat: no-repeat; /* Prevents tiling */
   background-position: center; /* Centers the image */
   background-attachment: fixed; /* Optional: keeps the image fixed while scrolling */
@@ -17,12 +17,14 @@ body {
 
 h2 {
   margin-top: 10px;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 /* Styling for the footer text */
 footer {
   text-align: center;
   font-size: 0.75rem;
+  margin-top: 6.5%;
 }
 
 /* Color for the photo links */
@@ -73,4 +75,37 @@ label {
 #infoblock1 {
   gap:5.5%;
 }
+
+.section2 {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin-top: 30px;
+  height: 30px;
+  width: 150px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #F8E7F6;
+}
+
+input {
+  border-radius: 3px;
+  height: 25px;
+  font-size: 1rem;
+}
+
+input[type="password"]:valid{
+  border: 1px solid green;
+}
+
+input[type="password"]:invalid{
+  border: 1px solid red;
+}
+
 
