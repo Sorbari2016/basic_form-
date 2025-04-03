@@ -70,12 +70,12 @@ label {
   border: none;
   display:flex;
   justify-content: center;
-  gap: 23%;
+  gap: 38vw;
   margin-bottom: 20px;
 }
 
 #infoblock1 {
-  gap:5.4%;
+  gap:9vw;
   margin-top: 40px;
 }
 
