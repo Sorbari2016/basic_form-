@@ -73,7 +73,7 @@ label {
 }
 
 #infoblock1 {
-  gap:5.1%;
+  gap:5.3%;
 }
 
 .section2 {
@@ -106,6 +106,7 @@ input {
   font-size: 1rem;
 }
 
+
 input[type="password"]:valid{
   border: 1px solid green;
 }
@@ -120,7 +121,9 @@ input::placeholder{
   opacity: 0.5;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus {
-  border: 1px solid pink;
+
+
+/* Color change after links have been viisited */
+a:visited{
+  color:purple;
 }
