@@ -9,7 +9,7 @@
 - CSS
 
 ## Completed Project Image 
-[Form image](https://github.com/Sorbari2016/basic_form/blob/main/assets/Form%20image.png) 
+![Form image](https://github.com/Sorbari2016/basic_form/blob/main/assets/Form%20image.png) 
 
 ## Trying Signing up
 ### Do NOT sign with your  real info. 
