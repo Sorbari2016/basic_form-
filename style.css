@@ -50,7 +50,7 @@ img {
 }
 
 
-.info-block p {
+.infoblock p {
   display: flex; 
   flex-direction: column;
   
